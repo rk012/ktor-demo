@@ -1,0 +1,13 @@
+a {
+    display: block;
+    margin-bottom: 30px;
+}
+
+form input {
+    display: block;
+}
+
+#description-input {
+    min-width: 80%;
+    min-height: 200px;
+}

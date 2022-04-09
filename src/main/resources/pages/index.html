@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Cards</title>
+
+    <link rel="stylesheet" href="/static/stylesheets/index.css">
+
+    <script type="text/javascript" src="/static/scripts/index.js"></script>
+</head>
+<body>
+<a href="/submit">Modify cards</a>
+<form onsubmit="onSearchSubmit(); return false;">
+    <input type="text" id="search-input" />
+    <input type="submit" />
+</form>
+<div id="results">
+    <h1>Results</h1>
+    <div id="cards-container"></div>
+</div>
+</body>
+</html>
